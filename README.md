@@ -2,9 +2,11 @@
 
 > An ember-cli-deploy plugin pack to implement a simple AWS deployment pattern
 
-<hr/>
+----------
+
 **WARNING: This plugin is only compatible with ember-cli-deploy versions >= 0.5.0**
-<hr/>
+
+----------
 
 This package bundles the plugins you need to have a deployment pipeline for your Ember app similar to what I described in my blog post: [Deploying Ember to AWS CloudFront](http://blog.testdouble.com/posts/2015-11-03-deploying-ember-to-aws-cloudfront-using-ember-cli-deploy.html)
 
