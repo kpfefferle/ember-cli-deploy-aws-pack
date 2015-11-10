@@ -1,25 +1,32 @@
-# Ember-cli-deploy-aws-pack
+# ember-cli-deploy-aws-pack
 
-This README outlines the details of collaborating on this Ember addon.
+> An ember-cli-deploy plugin pack to implement a simple AWS deployment pattern
+
+<hr/>
+**WARNING: This plugin is only compatible with ember-cli-deploy versions >= 0.5.0**
+<hr/>
+
+This package bundles the plugins you need to have a deployment pipeline for your Ember app similar to what I described in my blog post: [Deploying Ember to AWS CloudFront](http://blog.testdouble.com/posts/2015-11-03-deploying-ember-to-aws-cloudfront-using-ember-cli-deploy.html)
+
+It also has a blueprint for your `config/deploy.js` file to get you started.
 
 ## Installation
 
-* `git clone` this repository
-* `npm install`
-* `bower install`
+```
+ember install ember-cli-deploy
+ember install ember-cli-deploy-aws-pack
+```
 
-## Running
+The necessary set of plugins will be available to ember-cli-deploy and an example `deploy/config.js` file will be generated for you to customize with information for your deployment environments.
 
-* `ember server`
-* Visit your app at http://localhost:4200.
+## What is a plugin pack?
 
-## Running Tests
+A "plugin pack" is a concept supported by ember-cli-deploy that allows a single addon to make multiple plugins available by adding a single direct depedency to your project.
 
-* `ember test`
-* `ember test --server`
+## What plugins are made available?
 
-## Building
-
-* `ember build`
-
-For more information on using ember-cli, visit [http://www.ember-cli.com/](http://www.ember-cli.com/).
+* [ember-cli-deploy-build](https://github.com/zapnito/ember-cli-deploy-build)
+* [ember-cli-deploy-cloudfront](https://github.com/kpfefferle/ember-cli-deploy-cloudfront)
+* [ember-cli-deploy-gzip](https://github.com/lukemelia/ember-cli-deploy-gzip)
+* [ember-cli-deploy-s3](https://github.com/zapnito/ember-cli-deploy-s3)
+* [ember-cli-deploy-manifest](https://github.com/lukemelia/ember-cli-deploy-manifest)
