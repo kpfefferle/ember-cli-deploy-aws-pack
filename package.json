@@ -25,6 +25,6 @@
     "ember-cli-deploy-s3": "0.1.0"
   },
   "ember-addon": {
-    "defaultBlueprint": ""
+    "defaultBlueprint": "aws-deploy-config"
   }
 }
