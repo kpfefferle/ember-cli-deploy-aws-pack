@@ -10,7 +10,7 @@
   "author": "Kevin Pfefferle",
   "license": "MIT",
   "devDependencies": {
-    "ember-cli": "2.4.0",
+    "ember-cli": "2.4.1",
     "ember-cli-release": "0.2.8"
   },
   "keywords": [
