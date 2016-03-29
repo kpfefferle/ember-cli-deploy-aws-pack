@@ -1,6 +1,6 @@
 {
   "name": "ember-cli-deploy-aws-pack",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "description": "A pack of ember-cli-deploy plugins for implementing a simple AWS deploy approach.",
   "scripts": {},
   "repository": "https://github.com/kpfefferle/ember-cli-deploy-aws-pack",
