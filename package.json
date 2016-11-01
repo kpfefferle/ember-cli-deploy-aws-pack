@@ -5,7 +5,7 @@
   "scripts": {},
   "repository": "https://github.com/kpfefferle/ember-cli-deploy-aws-pack",
   "engines": {
-    "node": ">= 0.10.0"
+    "node": ">= 4"
   },
   "author": "Kevin Pfefferle",
   "license": "MIT",
