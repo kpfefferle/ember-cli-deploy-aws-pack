@@ -22,7 +22,7 @@
     "ember-cli-deploy-cloudfront": "^0.2.8",
     "ember-cli-deploy-gzip": "^0.2.3",
     "ember-cli-deploy-manifest": "^0.1.1",
-    "ember-cli-deploy-s3": "^0.3.2"
+    "ember-cli-deploy-s3": "^0.4.0"
   },
   "ember-addon": {
     "defaultBlueprint": "aws-deploy-config"
