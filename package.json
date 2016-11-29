@@ -2,27 +2,30 @@
   "name": "ember-cli-deploy-aws-pack",
   "version": "0.5.0",
   "description": "A pack of ember-cli-deploy plugins for implementing a simple AWS deploy approach.",
-  "scripts": {},
-  "repository": "https://github.com/kpfefferle/ember-cli-deploy-aws-pack",
-  "engines": {
-    "node": ">= 0.12.0"
-  },
-  "author": "Kevin Pfefferle",
-  "license": "MIT",
-  "devDependencies": {
-    "ember-cli": "2.10.0",
-    "ember-cli-release": "^0.2.9"
-  },
   "keywords": [
     "ember-addon",
     "ember-cli-deploy-plugin-pack"
   ],
+  "license": "MIT",
+  "author": "Kevin Pfefferle",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kpfefferle/ember-cli-deploy-aws-pack.git"
+  },
+  "scripts": {},
   "dependencies": {
     "ember-cli-deploy-build": "^0.1.1",
     "ember-cli-deploy-cloudfront": "^0.2.8",
     "ember-cli-deploy-gzip": "^0.2.4",
     "ember-cli-deploy-manifest": "^0.1.1",
     "ember-cli-deploy-s3": "^0.4.0"
+  },
+  "devDependencies": {
+    "ember-cli": "2.10.0",
+    "ember-cli-release": "^0.2.9"
+  },
+  "engines": {
+    "node": ">= 0.12.0"
   },
   "ember-addon": {
     "defaultBlueprint": "aws-deploy-config"
