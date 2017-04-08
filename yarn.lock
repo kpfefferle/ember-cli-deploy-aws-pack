@@ -233,7 +233,21 @@ async@~0.2.9:
   version "0.2.10"
   resolved "https://registry.yarnpkg.com/async/-/async-0.2.10.tgz#b6bbe0b0674b9d719708ca38de8c237cb526c3d1"
 
-aws-sdk@^2.35.0, aws-sdk@^2.6.12:
+aws-sdk@^2.40.0:
+  version "2.40.0"
+  resolved "https://registry.yarnpkg.com/aws-sdk/-/aws-sdk-2.40.0.tgz#7af7410f0484c9ae0742017e217b39917ebbf8d0"
+  dependencies:
+    buffer "4.9.1"
+    crypto-browserify "1.0.9"
+    jmespath "0.15.0"
+    querystring "0.2.0"
+    sax "1.2.1"
+    url "0.10.3"
+    uuid "3.0.1"
+    xml2js "0.4.17"
+    xmlbuilder "4.2.1"
+
+aws-sdk@^2.6.12:
   version "2.36.0"
   resolved "https://registry.yarnpkg.com/aws-sdk/-/aws-sdk-2.36.0.tgz#e13b7abbfef3b4476fe1c646fa7587fd6b4808de"
   dependencies:
@@ -1277,11 +1291,11 @@ ember-cli-deploy-build@^1.0.0:
     glob "^7.1.1"
     rsvp "^3.5.0"
 
-ember-cli-deploy-cloudfront@^1.0.0-beta.0:
-  version "1.0.0-beta.0"
-  resolved "https://registry.yarnpkg.com/ember-cli-deploy-cloudfront/-/ember-cli-deploy-cloudfront-1.0.0-beta.0.tgz#361586dd6cfe4a5a749c75c59306ef508612e044"
+ember-cli-deploy-cloudfront@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/ember-cli-deploy-cloudfront/-/ember-cli-deploy-cloudfront-1.0.0.tgz#535f79fd3cdaf09daff971fa8b0fad72e4474d10"
   dependencies:
-    aws-sdk "^2.35.0"
+    aws-sdk "^2.40.0"
     core-object "^3.1.0"
     ember-cli-deploy-plugin "~0.2.9"
     rsvp "^3.0.0"
@@ -3035,7 +3049,7 @@ lodash@^3.10.0, lodash@^3.10.1, lodash@^3.9.3:
   version "3.10.1"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-3.10.1.tgz#5bf45e8e49ba4189e17d482789dfd15bd140b7b6"
 
-lodash@^4.14.0, lodash@^4.17.4, lodash@^4.3.0, lodash@^4.6.1:
+lodash@^4.0.0, lodash@^4.14.0, lodash@^4.17.4, lodash@^4.3.0, lodash@^4.6.1:
   version "4.17.4"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.4.tgz#78203a4d1c328ae1d86dca6460e369b57f4055ae"
 
@@ -3900,7 +3914,7 @@ read@1, read@~1.0.1, read@~1.0.7:
   dependencies:
     mute-stream "~0.0.4"
 
-"readable-stream@1 || 2", readable-stream@^2, "readable-stream@^2.0.0 || ^1.1.13", readable-stream@^2.0.2, readable-stream@~2.0.5:
+"readable-stream@1 || 2", readable-stream@2, readable-stream@^2, "readable-stream@^2.0.0 || ^1.1.13", readable-stream@^2.0.2, readable-stream@~2.0.5:
   version "2.0.6"
   resolved "https://registry.yarnpkg.com/readable-stream/-/readable-stream-2.0.6.tgz#8f90341e68a53ccc928788dacfcd11b36eb9b78e"
   dependencies:
@@ -3920,7 +3934,7 @@ readable-stream@1.1.x:
     isarray "0.0.1"
     string_decoder "~0.10.x"
 
-readable-stream@2, readable-stream@^2.2.2:
+readable-stream@^2.2.2:
   version "2.2.6"
   resolved "https://registry.yarnpkg.com/readable-stream/-/readable-stream-2.2.6.tgz#8b43aed76e71483938d12a8d46c6cf1a00b1f816"
   dependencies:
@@ -4157,6 +4171,10 @@ sane@^1.1.1:
 sax@1.1.5, sax@>=0.6.0:
   version "1.1.5"
   resolved "https://registry.yarnpkg.com/sax/-/sax-1.1.5.tgz#1da50a8d00cdecd59405659f5ff85349fe773743"
+
+sax@1.2.1:
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/sax/-/sax-1.2.1.tgz#7b8e656190b228e81a66aea748480d828cd2d37a"
 
 "semver@2 >=2.2.1 || 3.x || 4 || 5", "semver@2 || 3 || 4 || 5", "semver@2.x || 3.x || 4 || 5", "semver@4 || 5", "semver@^2.3.0 || 3.x || 4 || 5", semver@^5.1.0, semver@^5.1.1, semver@^5.3.0:
   version "5.3.0"
@@ -4753,13 +4771,13 @@ uuid@3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/uuid/-/uuid-3.0.0.tgz#6728fc0459c450d796a99c31837569bdf672d728"
 
+uuid@3.0.1, uuid@^3.0.0, uuid@^3.0.1:
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/uuid/-/uuid-3.0.1.tgz#6544bba2dfda8c1cf17e629a3a305e2bb1fee6c1"
+
 uuid@^2.0.1:
   version "2.0.3"
   resolved "https://registry.yarnpkg.com/uuid/-/uuid-2.0.3.tgz#67e2e863797215530dff318e5bf9dcebfd47b21a"
-
-uuid@^3.0.0, uuid@^3.0.1:
-  version "3.0.1"
-  resolved "https://registry.yarnpkg.com/uuid/-/uuid-3.0.1.tgz#6544bba2dfda8c1cf17e629a3a305e2bb1fee6c1"
 
 validate-npm-package-license@^3.0.1:
   version "3.0.1"
@@ -4906,11 +4924,24 @@ xml2js@0.4.15:
     sax ">=0.6.0"
     xmlbuilder ">=2.4.6"
 
+xml2js@0.4.17:
+  version "0.4.17"
+  resolved "https://registry.yarnpkg.com/xml2js/-/xml2js-0.4.17.tgz#17be93eaae3f3b779359c795b419705a8817e868"
+  dependencies:
+    sax ">=0.6.0"
+    xmlbuilder "^4.1.0"
+
 xmlbuilder@2.6.2, xmlbuilder@>=2.4.6:
   version "2.6.2"
   resolved "https://registry.yarnpkg.com/xmlbuilder/-/xmlbuilder-2.6.2.tgz#f916f6d10d45dc171b1be2e6e673fb6e0cc35d0a"
   dependencies:
     lodash "~3.5.0"
+
+xmlbuilder@4.2.1, xmlbuilder@^4.1.0:
+  version "4.2.1"
+  resolved "https://registry.yarnpkg.com/xmlbuilder/-/xmlbuilder-4.2.1.tgz#aa58a3041a066f90eaa16c2f5389ff19f3f461a5"
+  dependencies:
+    lodash "^4.0.0"
 
 xmldom@^0.1.19:
   version "0.1.27"
