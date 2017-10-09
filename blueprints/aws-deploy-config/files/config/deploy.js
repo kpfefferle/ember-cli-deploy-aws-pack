@@ -1,7 +1,8 @@
-/* jshint node: true */
+/* eslint-env node */
+'use strict';
 
 module.exports = function(deployTarget) {
-  var ENV = {
+  let ENV = {
     build: {},
     pipeline: {
       // This setting runs the ember-cli-deploy activation hooks on every deploy
@@ -14,7 +15,7 @@ module.exports = function(deployTarget) {
     s3: {
       accessKeyId: process.env.AWS_KEY,
       secretAccessKey: process.env.AWS_SECRET,
-      filePattern: "*"
+      filePattern: '*'
     },
     cloudfront: {
       accessKeyId: process.env.AWS_KEY,
