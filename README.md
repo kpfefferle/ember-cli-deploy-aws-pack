@@ -1,4 +1,4 @@
-# ember-cli-deploy-aws-pack
+# ember-cli-deploy-aws-pack [![CircleCI](https://circleci.com/gh/kpfefferle/ember-cli-deploy-aws-pack.svg?style=svg)](https://circleci.com/gh/kpfefferle/ember-cli-deploy-aws-pack)
 
 > An ember-cli-deploy plugin pack to implement a simple AWS deployment pattern
 
