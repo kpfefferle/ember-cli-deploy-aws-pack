@@ -2,5 +2,5 @@
 'use strict';
 
 module.exports = {
-  name: 'ember-cli-deploy-aws-pack'
+  name: require('./package').name
 };

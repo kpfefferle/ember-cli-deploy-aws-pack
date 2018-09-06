@@ -1,4 +1,6 @@
-**/.gitkeep
-.editorconfig
-.ember-cli
-.gitignore
+/.circleci/
+/.editorconfig
+/.ember-cli
+/.gitignore
+/yarn.lock
+.gitkeep
