@@ -21,11 +21,11 @@
     "ember-cli-deploy-s3": "^1.4.0"
   },
   "devDependencies": {
-    "ember-cli": "3.10.0",
+    "ember-cli": "3.10.1",
     "ember-cli-release": "1.0.0-beta.2"
   },
   "engines": {
-    "node": "6.* || 8.* || >= 10.*"
+    "node": "8.* || >= 10.*"
   },
   "ember-addon": {
     "defaultBlueprint": "aws-deploy-config"
