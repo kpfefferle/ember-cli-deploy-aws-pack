@@ -14,7 +14,7 @@
   },
   "scripts": {},
   "dependencies": {
-    "ember-cli-deploy-build": "^1.1.1",
+    "ember-cli-deploy-build": "^2.0.0",
     "ember-cli-deploy-cloudfront": "^2.0.0",
     "ember-cli-deploy-gzip": "^1.0.1",
     "ember-cli-deploy-manifest": "^1.1.0",
