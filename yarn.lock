@@ -1894,10 +1894,10 @@ ember-cli-deploy-build@^2.0.0:
     glob "^7.1.1"
     rsvp "^3.5.0"
 
-ember-cli-deploy-cloudfront@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/ember-cli-deploy-cloudfront/-/ember-cli-deploy-cloudfront-2.0.0.tgz#48b49a7f3afc2bdae0223af52150ca40a1448a44"
-  integrity sha512-DWweZUAT1IeKAb4jLSHzfQgPRwhifTwkhqdCJFyWyGr3dInlPM2zlrGZ8EXaOliFyHp+DT/WH6FzdAR93WIEbg==
+ember-cli-deploy-cloudfront@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/ember-cli-deploy-cloudfront/-/ember-cli-deploy-cloudfront-3.0.0.tgz#5eefc88e667f08e763b89bcd66f962e51c34d7bd"
+  integrity sha512-HPs0FK/OEsIA/J1E0dHsrHazTJszkc0qKBtC2sZxW7YgQozV+p2LtHgTQoNwlnKcYQL60pyWBsUT4naI/gwtyA==
   dependencies:
     aws-sdk "^2.458.0"
     core-object "^3.1.5"
