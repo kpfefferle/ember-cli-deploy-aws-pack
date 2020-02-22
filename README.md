@@ -1,4 +1,4 @@
-# ember-cli-deploy-aws-pack [![CircleCI](https://circleci.com/gh/kpfefferle/ember-cli-deploy-aws-pack.svg?style=svg)](https://circleci.com/gh/kpfefferle/ember-cli-deploy-aws-pack)
+# ember-cli-deploy-aws-pack
 
 [![Ember CI](https://github.com/kpfefferle/ember-cli-deploy-aws-pack/workflows/Ember%20CI/badge.svg)](https://github.com/kpfefferle/ember-cli-deploy-aws-pack/actions)
 
