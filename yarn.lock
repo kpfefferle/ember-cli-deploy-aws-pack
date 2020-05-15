@@ -2051,14 +2051,14 @@ ember-cli-deploy-plugin@^0.2.1, ember-cli-deploy-plugin@^0.2.2, ember-cli-deploy
     core-object "2.0.6"
     lodash.clonedeep "^4.5.0"
 
-ember-cli-deploy-s3@^1.4.0:
-  version "1.4.0"
-  resolved "https://registry.yarnpkg.com/ember-cli-deploy-s3/-/ember-cli-deploy-s3-1.4.0.tgz#ea4cbe1e8eba046ba70ce9e3e76d679646abaa28"
-  integrity sha512-T/8SBhgbpG2dEOmElnxxeiLbYH8sKY/6Tth/iAwedTFJLhSkqzJ1xLvNt+GxQDBkhhjrrpn4kGbtnyTNPBbq0Q==
+ember-cli-deploy-s3@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/ember-cli-deploy-s3/-/ember-cli-deploy-s3-2.0.0.tgz#8a8a08234bfebac5e5f2376d43135e4224177128"
+  integrity sha512-Wylcyn1cvfhDF6iryF/+1cMDs6UCnFoCtwQQG8s77flI4eXA2VConz51dIKLAz1ALA3PmnDpNklKMoLsZYzSLg==
   dependencies:
     aws-sdk "^2.6.12"
     chalk "^1.0.0"
-    core-object "^2.0.0"
+    core-object "^3.1.5"
     ember-cli-deploy-plugin "^0.2.2"
     lodash "^4.17.4"
     mime "^2.3.1"
@@ -4549,12 +4549,7 @@ lodash.without@~3.2.1:
     lodash._basedifference "^3.0.0"
     lodash.restparam "^3.0.0"
 
-lodash@^4.17.11, lodash@^4.17.4:
-  version "4.17.14"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.14.tgz#9ce487ae66c96254fe20b599f21b6816028078ba"
-  integrity sha512-mmKYbW3GLuJeX+iGP+Y7Gp1AiGHGbXHCOh/jZmrawMmsE7MS4znI3RL2FsjbqOyMayHInjOeykW7PEajUk1/xw==
-
-lodash@^4.17.13, lodash@^4.17.14:
+lodash@^4.17.11, lodash@^4.17.13, lodash@^4.17.14, lodash@^4.17.4:
   version "4.17.15"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.15.tgz#b447f6670a0455bbfeedd11392eff330ea097548"
   integrity sha512-8xOcRHvCjnocdS5cpwXQXVzmmh5e5+saE2QGoeQmbKmRS6J3VQppPOIt0MnmE+4xlZoumy0GPG0D0MVIQbNA1A==
