@@ -1500,7 +1500,7 @@ chalk@^2.0.0, chalk@^2.0.1, chalk@^2.1.0, chalk@^2.4.1, chalk@^2.4.2:
     escape-string-regexp "^1.0.5"
     supports-color "^5.3.0"
 
-chalk@^4.0.0:
+chalk@^4.0.0, chalk@^4.1.0:
   version "4.1.0"
   resolved "https://registry.yarnpkg.com/chalk/-/chalk-4.1.0.tgz#4e14870a618d9e2edd97dd8345fd9d9dc315646a"
   integrity sha512-qwx12AxXe2Q5xQ43Ac//I6v5aXTipYrSESdOgzrN+9XjgEpyjpKuvSGaN4qE93f7TQTlerQQ8S+EQ0EyDoVL1A==
@@ -1869,7 +1869,7 @@ core-object@2.0.6:
   dependencies:
     chalk "^1.1.3"
 
-core-object@^2.0.0, core-object@^2.0.6:
+core-object@^2.0.6:
   version "2.1.1"
   resolved "https://registry.yarnpkg.com/core-object/-/core-object-2.1.1.tgz#4b7a5f1edefcb1e6d0dcb58eab1b9f90bfc666a8"
   integrity sha1-S3pfHt78sebQ3LWOqxufkL/GZqg=
@@ -2168,18 +2168,17 @@ ember-cli-deploy-gzip@^1.0.1:
     minimatch "^3.0.3"
     rsvp "^3.5.0"
 
-ember-cli-deploy-manifest@^1.1.0:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/ember-cli-deploy-manifest/-/ember-cli-deploy-manifest-1.1.0.tgz#096c4d1502c00935cabdbb9a38619ee3195ef927"
-  integrity sha1-CWxNFQLACTXKvbuaOGGe4xle+Sc=
+ember-cli-deploy-manifest@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/ember-cli-deploy-manifest/-/ember-cli-deploy-manifest-2.0.0.tgz#f35a5f909e33b04eb81af5a7c368b551133e06bc"
+  integrity sha512-V7zm9tHXoFTr4Onz05Ki7XCyAeEIyh8NsM+DZ5MO9PIv0thaixfz0snT9MIkDhtj973w9fQuY6m/sQ/YK99nnQ==
   dependencies:
-    chalk "^1.0.0"
-    core-object "^2.0.0"
-    ember-cli-deploy-plugin "^0.2.3"
-    minimatch "^3.0.3"
-    rsvp "^3.5.0"
+    chalk "^4.1.0"
+    core-object "^3.1.5"
+    minimatch "^3.0.4"
+    rsvp "^4.8.5"
 
-ember-cli-deploy-plugin@^0.2.1, ember-cli-deploy-plugin@^0.2.2, ember-cli-deploy-plugin@^0.2.3, ember-cli-deploy-plugin@^0.2.6, ember-cli-deploy-plugin@~0.2.9:
+ember-cli-deploy-plugin@^0.2.1, ember-cli-deploy-plugin@^0.2.2, ember-cli-deploy-plugin@^0.2.6, ember-cli-deploy-plugin@~0.2.9:
   version "0.2.9"
   resolved "https://registry.yarnpkg.com/ember-cli-deploy-plugin/-/ember-cli-deploy-plugin-0.2.9.tgz#a3d395b8adad7ef68d8bacdd0b0f4a61bcf9e651"
   integrity sha1-o9OVuK2tfvaNi6zdCw9KYbz55lE=
