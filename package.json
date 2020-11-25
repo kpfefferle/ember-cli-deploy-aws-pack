@@ -18,7 +18,7 @@
     "ember-cli-deploy-cloudfront": "^3.0.0",
     "ember-cli-deploy-gzip": "^1.0.1",
     "ember-cli-deploy-manifest": "^2.0.0",
-    "ember-cli-deploy-s3": "^2.0.0"
+    "ember-cli-deploy-s3": "^3.0.0"
   },
   "devDependencies": {
     "ember-cli": "3.22.0",
