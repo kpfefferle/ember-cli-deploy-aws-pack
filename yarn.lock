@@ -216,15 +216,15 @@ ember-cli-deploy-build@^2.0.0:
     rsvp "^3.5.0"
 
 ember-cli-deploy-cloudfront@^3.0.0:
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/ember-cli-deploy-cloudfront/-/ember-cli-deploy-cloudfront-3.0.0.tgz#5eefc88e667f08e763b89bcd66f962e51c34d7bd"
-  integrity sha512-HPs0FK/OEsIA/J1E0dHsrHazTJszkc0qKBtC2sZxW7YgQozV+p2LtHgTQoNwlnKcYQL60pyWBsUT4naI/gwtyA==
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/ember-cli-deploy-cloudfront/-/ember-cli-deploy-cloudfront-3.1.0.tgz#55a79eadc00358877141fab125c5feabccfcce17"
+  integrity sha512-q3m4woNJYThUoptxLLmgFUIBVr6p+Z+JGhY7T23VS+RHMloYm3hFEp2VITFUW8r+nwPrNYEpFlsqmGJbSvNM3A==
   dependencies:
     aws-sdk "^2.458.0"
     core-object "^3.1.5"
     ember-cli-deploy-plugin "~0.2.9"
     rsvp "^4.8.3"
-    uuid "^3.3.2"
+    uuid "^8.0.0"
 
 ember-cli-deploy-gzip@^2.0.0:
   version "2.0.0"
@@ -752,10 +752,10 @@ uuid@3.3.2:
   resolved "https://registry.yarnpkg.com/uuid/-/uuid-3.3.2.tgz#1b4af4955eb3077c501c23872fc6513811587131"
   integrity sha512-yXJmeNaw3DnnKAOKJE51sL/ZaYfWJRl1pK9dr19YFCu0ObS231AB1/LbqTKRAQ5kw8A90rA6fr4riOUpTZvQZA==
 
-uuid@^3.3.2:
-  version "3.4.0"
-  resolved "https://registry.yarnpkg.com/uuid/-/uuid-3.4.0.tgz#b23e4358afa8a202fe7a100af1f5f883f02007ee"
-  integrity sha512-HjSDRw6gZE5JMggctHBcjVak08+KEVhSIiDzFnT9S9aegmp85S/bReBVTb4QTFaRNptJ9kuYaNhnbNEOkbKb/A==
+uuid@^8.0.0:
+  version "8.3.2"
+  resolved "https://registry.yarnpkg.com/uuid/-/uuid-8.3.2.tgz#80d5b5ced271bb9af6c445f21a1a04c606cefbe2"
+  integrity sha512-+NYs2QeMWy+GWFOEm9xnn6HCDp0l7QBD7ml8zLUmJ+93Q5NF0NocErnwkTkXVFNiX3/fpC6afS8Dhb/gz7R7eg==
 
 wordwrap@~1.0.0:
   version "1.0.0"
