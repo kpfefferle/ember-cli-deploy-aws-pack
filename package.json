@@ -21,7 +21,7 @@
     "ember-cli-deploy-s3": "^3.0.0"
   },
   "devDependencies": {
-    "ember-cli": "3.22.0",
+    "ember-cli": "3.24.0",
     "ember-cli-release": "1.0.0-beta.2"
   },
   "engines": {
