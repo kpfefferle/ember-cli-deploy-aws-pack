@@ -227,9 +227,9 @@ ember-cli-deploy-cloudfront@^3.0.0:
     uuid "^8.0.0"
 
 ember-cli-deploy-gzip@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/ember-cli-deploy-gzip/-/ember-cli-deploy-gzip-2.0.0.tgz#b959885d312418b23a022286d543c0544c34b124"
-  integrity sha512-yZqKsxgfyzUYNwBkub9zUPJkTt2QAYSiixRWBbT/y8CGkOJbMk8vhTxTBZuuvpKcwnWglN+Be4fIyvvcRKVSwQ==
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/ember-cli-deploy-gzip/-/ember-cli-deploy-gzip-2.0.1.tgz#c89ee5818331a09c942efd5ca66a193d274d146c"
+  integrity sha512-W6l+VoKCj4wSyK9LNrj9yakzIsyns8y8O/XkTrx2Qp71eiAZmxPpLsrfk+8pncUmxn9d+Cz2yM+JnG6uPTHJCg==
   dependencies:
     chalk "^4.1.0"
     core-object "^3.1.5"
