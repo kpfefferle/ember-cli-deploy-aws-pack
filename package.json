@@ -21,7 +21,7 @@
     "ember-cli-deploy-s3": "^3.0.0"
   },
   "engines": {
-    "node": "14.* || >= 16"
+    "node": "16.x || 18.x || >= 20.x"
   },
   "ember-addon": {
     "defaultBlueprint": "aws-deploy-config"
