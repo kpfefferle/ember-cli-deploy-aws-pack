@@ -262,10 +262,10 @@ ember-cli-deploy-gzip@^2.0.0:
     minimatch "^3.0.4"
     rsvp "^4.8.5"
 
-ember-cli-deploy-manifest@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/ember-cli-deploy-manifest/-/ember-cli-deploy-manifest-2.0.0.tgz#f35a5f909e33b04eb81af5a7c368b551133e06bc"
-  integrity sha512-V7zm9tHXoFTr4Onz05Ki7XCyAeEIyh8NsM+DZ5MO9PIv0thaixfz0snT9MIkDhtj973w9fQuY6m/sQ/YK99nnQ==
+ember-cli-deploy-manifest@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/ember-cli-deploy-manifest/-/ember-cli-deploy-manifest-3.0.0.tgz#d0050fa6113aae1b23574dbaaf341fdcd1c80138"
+  integrity sha512-uXj7DqE4usYmCHNPzk6hcYg03/ix2DiEvR34s9IG7Mq6fHI+XoYdLM8647ejd6E1YICuzTdfdcZOHEEp+9qBWA==
   dependencies:
     chalk "^4.1.0"
     core-object "^3.1.5"
