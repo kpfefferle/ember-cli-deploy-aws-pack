@@ -349,7 +349,7 @@ ember-cli-deploy-manifest@^3.0.0:
     minimatch "^3.0.4"
     rsvp "^4.8.5"
 
-ember-cli-deploy-plugin@^0.2.2, ember-cli-deploy-plugin@^0.2.6, ember-cli-deploy-plugin@^0.2.9, ember-cli-deploy-plugin@~0.2.9:
+ember-cli-deploy-plugin@^0.2.6, ember-cli-deploy-plugin@^0.2.9, ember-cli-deploy-plugin@~0.2.9:
   version "0.2.9"
   resolved "https://registry.yarnpkg.com/ember-cli-deploy-plugin/-/ember-cli-deploy-plugin-0.2.9.tgz#a3d395b8adad7ef68d8bacdd0b0f4a61bcf9e651"
   integrity sha1-o9OVuK2tfvaNi6zdCw9KYbz55lE=
@@ -358,17 +358,17 @@ ember-cli-deploy-plugin@^0.2.2, ember-cli-deploy-plugin@^0.2.6, ember-cli-deploy
     core-object "2.0.6"
     lodash.clonedeep "^4.5.0"
 
-ember-cli-deploy-s3@^3.0.0:
-  version "3.3.0"
-  resolved "https://registry.yarnpkg.com/ember-cli-deploy-s3/-/ember-cli-deploy-s3-3.3.0.tgz#ec42bb45459d2bb10fdc7b19f7fa7d05641eb099"
-  integrity sha512-qOUM8InlBCAwZP6u0AaYlHq3rFemSO9cWaKPa3W9JG5hUKNyDOKK/7yV9Vr3ovTm7ofZAr4WKBH7lhPn//z4kQ==
+ember-cli-deploy-s3@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/ember-cli-deploy-s3/-/ember-cli-deploy-s3-4.0.0.tgz#2c069bab46adae5de5a9e0974496053403c8c175"
+  integrity sha512-HsxE15qGVMyj1vJetXI9OYLmh+h24PhETHrNavL4zJR+kiE9eagXNpofp+alalv40u2bBxBcSrTmQLozJOuJ5w==
   dependencies:
     aws-sdk "^2.1354.0"
     chalk "^4.1.0"
     core-object "^3.1.5"
-    ember-cli-deploy-plugin "^0.2.2"
+    ember-cli-deploy-plugin "^0.2.9"
     lodash "^4.17.21"
-    mime "^2.5.2"
+    mime "^3.0.0"
     minimatch "^3.0.3"
     proxy-agent "^5.0.0"
     rsvp "^4.8.5"
@@ -749,10 +749,10 @@ lru-cache@^9.1.1:
   resolved "https://registry.yarnpkg.com/lru-cache/-/lru-cache-9.1.2.tgz#255fdbc14b75589d6d0e73644ca167a8db506835"
   integrity sha512-ERJq3FOzJTxBbFjZ7iDs+NiK4VI9Wz+RdrrAB8dio1oV+YvdPzUEE4QNiT2VD51DkIbCYRUUzCRkssXCHqSnKQ==
 
-mime@^2.5.2:
-  version "2.6.0"
-  resolved "https://registry.yarnpkg.com/mime/-/mime-2.6.0.tgz#a2a682a95cd4d0cb1d6257e28f83da7e35800367"
-  integrity sha512-USPkMeET31rOMiarsBNIHZKLGgvKc/LrjofAnBlOttf5ajRvqiRA8QsenbcooctK6d6Ts6aqZXBA+XbkKthiQg==
+mime@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/mime/-/mime-3.0.0.tgz#b374550dca3a0c18443b0c950a6a58f1931cf7a7"
+  integrity sha512-jSCU7/VB1loIWBZe14aEYHU/+1UMEHoaO7qxCOVJOw9GgH72VAWppxNcjU+x9a2k3GSIBXNKxXQFqRvvZ7vr3A==
 
 minimatch@^3.0.3, minimatch@^3.0.4:
   version "3.1.2"
@@ -966,6 +966,7 @@ source-map@~0.6.1:
   integrity sha1-Fhx9rBd2Wf2YEfQ3cfqZOBR4Yow=
 
 "string-width-cjs@npm:string-width@^4.2.0", string-width@^4.1.0:
+  name string-width-cjs
   version "4.2.3"
   resolved "https://registry.yarnpkg.com/string-width/-/string-width-4.2.3.tgz#269c7117d27b05ad2e536830a8ec895ef9c6d010"
   integrity sha512-wKyQRQpjJ0sIp62ErSZdGsjMJWsap5oRNihHhu6G7JVO/9jIB6UyevL+tXuOqrng8j/cxKTWyWUwvSTriiZz/g==
@@ -989,6 +990,7 @@ string_decoder@~0.10.x:
   integrity sha1-YuIDvEF2bGwoyfyEMB2rHFMQ+pQ=
 
 "strip-ansi-cjs@npm:strip-ansi@^6.0.1", strip-ansi@^6.0.0, strip-ansi@^6.0.1:
+  name strip-ansi-cjs
   version "6.0.1"
   resolved "https://registry.yarnpkg.com/strip-ansi/-/strip-ansi-6.0.1.tgz#9e26c63d30f53443e9489495b2105d37b67a85d9"
   integrity sha512-Y38VPSHcqkFrCpFnQ9vuSXmquuv5oXOKpGeT6aGrr3o3Gc9AlVa6JBfUSOCnbxGGZF+/0ooI7KrPuUSztUdU5A==
