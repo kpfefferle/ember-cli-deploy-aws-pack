@@ -18,7 +18,7 @@
     "ember-cli-deploy-cloudfront": "^5.0.0",
     "ember-cli-deploy-gzip": "^3.0.0",
     "ember-cli-deploy-manifest": "^3.0.0",
-    "ember-cli-deploy-s3": "^4.0.0"
+    "ember-cli-deploy-s3": "^5.0.0"
   },
   "engines": {
     "node": "16.x || 18.x || >= 20.x"
