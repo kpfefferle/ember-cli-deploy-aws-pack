@@ -2571,9 +2571,9 @@ ember-cli-deploy-plugin@^0.2.9, ember-cli-deploy-plugin@~0.2.9:
     lodash.clonedeep "^4.5.0"
 
 ember-cli-deploy-s3@^5.0.0:
-  version "5.0.0"
-  resolved "https://registry.yarnpkg.com/ember-cli-deploy-s3/-/ember-cli-deploy-s3-5.0.0.tgz#b18415c50614b8738c421f641805cdd75fb80af0"
-  integrity sha512-+54A1gykUmIcsv4uqTG77BGzq/x315JPpMiEykuYaUwUfiVhrKRruq0deuC1dMIkC7Ej4cNYRm9TCljUXeqRsA==
+  version "5.0.1"
+  resolved "https://registry.yarnpkg.com/ember-cli-deploy-s3/-/ember-cli-deploy-s3-5.0.1.tgz#838b5b4d15c0c43d782400cef082bef4762423c0"
+  integrity sha512-LCkpgdCkH823oZfSKYe4oT1/Xz7qEm9QtaFKWeAND13++GKvKwZWFhc1BYU+kumI4WR4i7KA62Mbr0AMrHmSrw==
   dependencies:
     "@aws-sdk/client-s3" "^3.525.0"
     "@aws-sdk/credential-providers" "^3.525.0"
