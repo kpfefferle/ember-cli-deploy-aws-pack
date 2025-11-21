@@ -2,5 +2,5 @@
 /.editorconfig
 /.ember-cli
 /.gitignore
-/yarn.lock
+/pnpm-lock.yaml
 .gitkeep
